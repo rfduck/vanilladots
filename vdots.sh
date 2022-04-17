@@ -6,6 +6,6 @@ mv ~/.vimrc ~/.vimrc_backup
 mv ~/.tmux.conf ~/.tmux.conf_backup
 ln -s ~/vanilladots/.bashrc ~/.bashrc
 ln -s ~/vanilladots/.bash_aliases ~/.bash_aliases
-ln -s ~/vaniladots/.vimrc ~/.vimrc
+cp ~/vaniladots/.vimrc ~/.vimrc
 ln -s ~/vanilladots/.tmux.conf ~/.tmux.conf
 echo "Done!"
